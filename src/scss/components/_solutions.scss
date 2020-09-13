@@ -1,0 +1,118 @@
+.solutions {
+    min-height: 889px;
+    padding: 79px 0 61px 0;
+    background: url('../img/solutions/woman_sheet.jpg') center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        padding: 0 380px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    &__menu {
+        margin-top: 25px;
+    }
+    &__menu-wrapper {
+        width: 843px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        padding: 9px 33px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+    }
+    &__menu-item {
+        padding: 10px 21px;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        border-right: 1px solid white;
+        transition: all 0.5s ease-out;
+        &:last-child {
+            border-right: none;
+        }
+        &:hover {
+            color: #00c2f0;
+        }
+    }
+
+    &__macbook {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 127px);
+    }
+
+    &__field {
+        width: 697px;
+        height: 435px;
+        margin-top: 80px;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        &-wrapper {
+            display: flex;
+            width: 2792px;
+        }
+        
+    }
+    &__prev {
+        z-index: 1;
+        cursor: pointer;
+        position: absolute;
+        width: 18px;
+        height: 100px;
+        left: 22%;
+        transform: translateY(85%);
+        &::before {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 32px;
+            background-color: #00c2f0;
+            transform: rotate(0.82turn) translate(-96px, -37px);
+        }
+        &::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 32px;
+            background-color: #00c2f0;
+            transform: rotate(0.68turn) translate(-57px, -109px);
+        }
+    }
+    &__next {
+        z-index: 1;
+        cursor: pointer;
+        position: absolute;
+        width: 18px;
+        height: 100px;
+        right: 22%;
+        transform: translateY(85%);
+        &::before {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 32px;
+            background-color: #00c2f0;
+            transform: rotate(0.68turn) translate(-86px, 15px);
+        }
+        &::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 32px;
+            background-color: #00c2f0;
+            transform: rotate(-0.68turn) translate(68px, -87px);
+        }
+    }
+
+}

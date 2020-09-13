@@ -1,0 +1,27 @@
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+@import './resources/fonts';
+@import './components/header';
+@import './components/promo';
+@import './components/button';
+@import './components/c-predni';
+@import './components/solutions';
+@import './components/advantages';
+@import './components/deploy';
+@import './components/touch';
+@import './components/footer';

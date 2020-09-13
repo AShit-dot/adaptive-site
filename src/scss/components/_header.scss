@@ -1,0 +1,39 @@
+.header {
+    padding: 16px 0;
+    display: flex;
+    &__field {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-right: 33px;;
+        display: flex;
+        align-items: flex-start;
+    }
+    &__img {
+        margin-right: 11px;
+    }
+    &__title {
+        color: #242424;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+    }
+    &__address {
+        font-style: normal; 
+        color: #242424;
+        font-size: 12px;
+        margin-top: 8px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    &__tel {
+        display: block;
+        margin-top: 9px;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+}

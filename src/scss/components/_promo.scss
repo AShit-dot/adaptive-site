@@ -1,0 +1,50 @@
+.promo {
+    padding: 39px 0 69px 0;
+    min-height: 700px;
+    background-image: url('../img/logo/layer.jpg');
+    &__logo {
+        cursor: pointer;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu {
+        margin-top: 25px;
+    }
+    &__menu-wrapper{
+        width: 540px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu-item {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    &__title {
+        max-width: 530px;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    &__subtitle {
+        max-width: 426px;
+        margin-top: 27px;
+        span {
+            
+            font-weight: 400;
+        }
+        line-height: 24px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__wrapper {
+        margin-top: 133px;
+    }
+}
