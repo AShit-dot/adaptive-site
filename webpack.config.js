@@ -80,7 +80,8 @@
 const path = require('path');
 
 module.exports = {
-  entry: '.src/js/index.js',
+  mode: 'development',
+  entry: './src/js/assets/index.js',
   output: {
     path: path.resolve(__dirname, 'src'),
     filename: 'js/bundle.js'
