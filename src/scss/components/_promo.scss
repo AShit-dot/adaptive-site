@@ -1,16 +1,65 @@
 .promo {
-    padding: 39px 0 69px 0;
+    position: relative;
     min-height: 700px;
-    background-image: url('../img/logo/layer.jpg');
-    &__logo {
-        cursor: pointer;
+    &__wrapper {
+        margin: 237px 0 0 138px;
+        position: absolute;
+        top: 0; 
     }
-    &__header {
+    &__backgrounds { 
+        display: flex;
+        width: 7680px;
+        transition: all 0.5s;
+    }
+    &__background { 
+        width: 100%;
+    }
+    &__backgrounds-window { 
+        width: 1920px;
+        height: 720px;
+        overflow: hidden;
+    }
+    &__nav {
+        position: absolute;
+        width: 106px;
         display: flex;
         justify-content: space-between;
+        left: 50%;
+        transform: translate(-50%, -90px);
+        &-items {
+            width: 66px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-item {
+            width: 12px;
+            height: 12px;
+            border: 1px solid #ffffff;
+            border-radius: 100%;
+        }
+        &-prev {
+            color: #ffffff;
+            font-size: 12px;
+        }
+        &-next {
+            color: #ffffff;
+            font-size: 12px;
+        }
+    }
+    &__logo {
+        cursor: pointer;
+        margin: 39px 0 0 138px;
+    }
+    &__header {
+        position: absolute;
+        display: flex;
+        top: 0;
     }
     &__menu {
-        margin-top: 25px;
+        margin-top: 64px;
+        position: absolute;
+        left: 356%
     }
     &__menu-wrapper{
         width: 540px;
@@ -43,8 +92,5 @@
         font-family: Roboto;
         font-size: 24px;
         font-weight: 300;
-    }
-    &__wrapper {
-        margin-top: 133px;
     }
 }

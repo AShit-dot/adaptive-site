@@ -15,6 +15,9 @@ ul {
     margin: 0 auto;
 }
 
+.active {
+    background-color: #ffffff;
+}
 
 @import './resources/fonts';
 @import './components/header';
