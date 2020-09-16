@@ -7,6 +7,7 @@
         top: 0; 
     }
     &__backgrounds { 
+
         display: flex;
         width: 7680px;
         transition: all 0.5s;
@@ -15,7 +16,7 @@
         width: 100%;
     }
     &__backgrounds-window { 
-        width: 1920px;
+        width: 1900px;
         height: 720px;
         overflow: hidden;
     }
